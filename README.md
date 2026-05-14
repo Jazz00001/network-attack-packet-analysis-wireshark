@@ -84,11 +84,6 @@ network-attack-packet-analysis-wireshark/
 │   └── lessons-learned.md
 │
 ├── pcaps/
-│   └── README.md
-│
-└── screenshots/
-    ├── 01-lab-topology.svg
-    ├── 11-final-evidence-summary.svg
     └── README.md
 ```
 
