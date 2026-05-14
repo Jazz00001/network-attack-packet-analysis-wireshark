@@ -27,7 +27,7 @@ Packet analysis is a core skill for SOC analysts, network security analysts, inc
 
 ## Network Topology
 
-![Lab Topology](./screenshots/01-lab-topology.svg)
+![Lab Topology](screenshots/topology.png)
 
 The two virtual machines were placed on the same isolated private network segment. Kali Linux generated controlled attack traffic against Metasploitable 2. The traffic was captured using tcpdump and analyzed in Wireshark.
 
