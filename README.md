@@ -150,6 +150,16 @@ sudo nmap -sS -p 139,445 --script smb-os-discovery 192.168.1.3
 | ICMP Echo Requests | `icmp.type == 8` |
 | SYN-only TCP packets | `tcp.flags.syn == 1 && tcp.flags.ack == 0` |
 
+![ICMP](screenshots/05-icmp-flood-wireshark-filter.png)
+
+
+
+![flood](06-syn-flood-wireshark-filter.png)
+
+
+
+![SSH](07-ssh-bruteforce-wireshark-filter.png)
+
 ## Key Findings
 
 ### Finding 1: ICMP Flood
