@@ -154,11 +154,11 @@ sudo nmap -sS -p 139,445 --script smb-os-discovery 192.168.1.3
 
 
 
-![flood](06-syn-flood-wireshark-filter.png)
+![flood](screenshots/06-syn-flood-wireshark-filter.png)
 
 
 
-![SSH](07-ssh-bruteforce-wireshark-filter.png)
+![SSH](screenshots/07-ssh-bruteforce-wireshark-filter.png)
 
 ## Key Findings
 
