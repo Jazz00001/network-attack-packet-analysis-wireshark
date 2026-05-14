@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#0f172a"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Arial" font-size="34" fill="#ffffff" font-weight="700">Final Packet Analysis Evidence Summary</text>
+  <text x="600" y="95" text-anchor="middle" font-family="Arial" font-size="18" fill="#cbd5e1">Kali Linux 192.168.1.4 → Metasploitable 2 192.168.1.3</text>
+
+  <rect x="95" y="150" width="470" height="180" rx="20" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <text x="130" y="195" font-family="Arial" font-size="26" fill="#38bdf8" font-weight="700">DET-002: ICMP Flood</text>
+  <text x="130" y="235" font-family="Arial" font-size="18" fill="#e5e7eb">Evidence: High-rate Echo Requests</text>
+  <text x="130" y="270" font-family="Arial" font-size="18" fill="#e5e7eb">Filter: icmp &amp;&amp; ip.dst == 192.168.1.3</text>
+  <text x="130" y="305" font-family="Arial" font-size="18" fill="#22c55e">Status: Confirmed</text>
+
+  <rect x="635" y="150" width="470" height="180" rx="20" fill="#111827" stroke="#f97316" stroke-width="3"/>
+  <text x="670" y="195" font-family="Arial" font-size="26" fill="#f97316" font-weight="700">DET-003: TCP SYN Flood</text>
+  <text x="670" y="235" font-family="Arial" font-size="18" fill="#e5e7eb">Evidence: SYN=1, ACK=0</text>
+  <text x="670" y="270" font-family="Arial" font-size="18" fill="#e5e7eb">Target: TCP/80</text>
+  <text x="670" y="305" font-family="Arial" font-size="18" fill="#22c55e">Status: Confirmed</text>
+
+  <rect x="95" y="380" width="470" height="180" rx="20" fill="#111827" stroke="#a855f7" stroke-width="3"/>
+  <text x="130" y="425" font-family="Arial" font-size="26" fill="#a855f7" font-weight="700">DET-004: SSH Brute Force</text>
+  <text x="130" y="465" font-family="Arial" font-size="18" fill="#e5e7eb">Evidence: Repeated short SSH sessions</text>
+  <text x="130" y="500" font-family="Arial" font-size="18" fill="#e5e7eb">Target: TCP/22</text>
+  <text x="130" y="535" font-family="Arial" font-size="18" fill="#22c55e">Status: Confirmed</text>
+
+  <rect x="635" y="380" width="470" height="180" rx="20" fill="#111827" stroke="#22c55e" stroke-width="3"/>
+  <text x="670" y="425" font-family="Arial" font-size="26" fill="#22c55e" font-weight="700">DET-005: SMB Enumeration</text>
+  <text x="670" y="465" font-family="Arial" font-size="18" fill="#e5e7eb">Evidence: SMB session setup traffic</text>
+  <text x="670" y="500" font-family="Arial" font-size="18" fill="#e5e7eb">Ports: TCP/139 and TCP/445</text>
+  <text x="670" y="535" font-family="Arial" font-size="18" fill="#22c55e">Status: Confirmed</text>
+
+  <text x="600" y="630" text-anchor="middle" font-family="Arial" font-size="20" fill="#cbd5e1">Supporting Evidence: Wireshark Conversations + Protocol Hierarchy + Packet Details</text>
+</svg>
